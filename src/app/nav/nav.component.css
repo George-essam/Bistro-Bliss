@@ -34,6 +34,7 @@ header
     padding: 0px 8px 0 25px;
 }
 
+
 .right-section{
     display: flex;
     justify-content: space-evenly;
@@ -70,9 +71,38 @@ header
 }
 
 .nav-left-section h1 {
+    white-space: nowrap;
     font-size: 42.67px;
     font-family: 'Playfair Display';
+    /* height: 29px; */
     font-weight: 600;
     font-style: italic; 
+    margin-left: 8px;
+}
 
+.nav-mid-section a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.home
+{
+    background-color: #DBDFD0; /* Adjust this color to match the exact shade from your design */
+    border-radius: 34px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+.nav-right-section button
+{
+    border-radius: 118px;
+    cursor: pointer; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border: 2px solid #333;
+    width: 148px;
+    height: 48px;
+    background-color: transparent;
 }
