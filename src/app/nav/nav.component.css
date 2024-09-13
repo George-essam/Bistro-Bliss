@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
 
 header
 {
     background-color: #474747;
-    /* width: 100vw;
-    padding: 0;
-    margin: 0; */
-    /* position: fixed */
 }
 
 .container
@@ -45,6 +39,7 @@ header
 
 .right-section img {
     padding: 0 4px;
+    cursor: pointer;
 }
 
 .nav
@@ -56,6 +51,7 @@ header
     margin: 0 150px;
     margin-top: 29px;
     height: 55px;
+    padding-bottom: 25px;
 }
 
 .nav-left-section

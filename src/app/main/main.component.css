@@ -1,0 +1,62 @@
+.main-section
+{
+    text-align: center;
+    position: relative;
+}
+
+
+img
+{
+    width: 100%;
+    opacity: 90%;
+}
+
+.title
+{
+    color: black; 
+    z-index: 10; 
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    line-height: 1; 
+}
+
+.title .header
+{
+    font-family: 'Playfair Display';
+    font-size: 80px;
+}
+
+.title .text
+{
+    font-size: 20px;
+}
+
+.button
+{
+    z-index: 10; 
+    position: absolute;
+    width: 100%;
+    top: 425px;
+}
+
+.button .left-button
+{
+    margin-right: 16px;
+    border-radius: 118px;
+    width: 164px;
+    height: 64px;
+    font-weight: bold;
+    background-color: #AD343E;
+    color: white;
+    cursor: pointer;
+}
+
+.button .right-button
+{
+    border-radius: 118px;
+    width: 171px;
+    height: 64px;
+    font-weight: bold;
+    cursor: pointer;
+}
