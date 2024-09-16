@@ -1,4 +1,4 @@
-Bistro Bliss 🍽️
+#Bistro Bliss 🍽️
 Bistro Bliss is a full-fledged restaurant website that includes both the frontend and backend to deliver a seamless user experience. This website allows users to explore the menu, make reservations, and contact the restaurant. Additionally, the backend manages orders, reservations, and user queries.
 
 🛠️ Tech Stack
