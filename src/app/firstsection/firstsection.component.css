@@ -1,0 +1,65 @@
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 70px 64px 70px;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title
+{
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+
+.cards div .category
+{
+    font-family: 'DM sans';
+    font-size:24px;
+    font-weight: bold;
+    color: #2C2F24;
+    padding-top: 30px ;
+    padding-bottom: 15px;
+}
+
+.cards div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 306px;
+    height: 375px;
+    padding: 24px;
+    border:  1px solid #DBDFD0 ;
+    margin: 12px;
+    border-radius: 12px;
+    font-family:'DM sans';
+    text-align: center;
+}
+
+
+.cards div img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.cards div a
+{
+    padding-top: 30px;
+    text-decoration: none;
+    color: #AD343E;
+    font-weight: bold;
+    cursor: pointer;
+}
