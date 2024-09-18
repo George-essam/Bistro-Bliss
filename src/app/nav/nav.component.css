@@ -71,9 +71,10 @@ header
     font-size: 42.67px;
     font-family: 'Playfair Display';
     /* height: 29px; */
-    font-weight: 600;
+    /* font-weight: 600; */
     font-style: italic; 
-    margin-left: 8px;
+    margin-left: 10px;
+    color: #474747;
 }
 
 .nav-mid-section a
@@ -81,6 +82,8 @@ header
     margin: 0 10px;
     text-decoration: none;
     color: black;
+    font-family: 'DM sans';
+    font-weight: 500;
 }
 
 .home

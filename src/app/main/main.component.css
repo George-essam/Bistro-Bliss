@@ -30,6 +30,8 @@ img
 .title .text
 {
     font-size: 20px;
+    font-family: 'DM sans';
+    line-height: 1.5;
 }
 
 .button
@@ -37,6 +39,7 @@ img
     z-index: 10; 
     position: absolute;
     width: 100%;
+    margin-top: 20px;
     top: 425px;
 }
 
