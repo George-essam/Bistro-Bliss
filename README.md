@@ -1,27 +1,49 @@
-# BistroBliss
+*Bistro Bliss*🍽️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+Bistro Bliss is a full-fledged restaurant website that includes both the frontend and backend to deliver a seamless user experience. This website allows users to explore the menu, make reservations, and contact the restaurant. Additionally, the backend manages orders, reservations, and user queries.
 
-## Development server
+🛠️ Tech Stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Frontend:             
+Angular (for dynamic and interactive UI)         
+HTML5 & CSS3 (for structure and styling)                      
+TypeScript (for type-safe scripting)          
 
-## Code scaffolding
+Backend:             
+Node.js (Server-side JavaScript)        
+Express.js (Web framework for handling requests)                
+MongoDB (Database for storing reservations, menus, and orders)                 
+JWT (for user authentication)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+💻 Features
 
-## Build
+Frontend:                    
+🔍 Main Page containing information about the website                 
+📖 Menu Display: Users can browse through the restaurant's menu.                   
+📝 Reservation Form: Book a table online.                      
+📞 Contact Form: Reach out to the restaurant with inquiries.                  
+🌐 Responsive Design: Fully functional across different devices.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Backend:                      
+🔐 Authentication: Admin login to manage reservations and orders.                 
+📦 Order Management: Process incoming orders.                 
+📅 Reservation Management: Handle and store table bookings.                   
+📨 Contact Form Submission: Store and manage inquiries from users.
 
-## Running unit tests
+📦 Bistro Bliss Project Info
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project was generated with Angular CLI version 18.2.3.
 
-## Running end-to-end tests
+Development Server               
+Run ng serve for a development server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This project was generated with Angular CLI version 18.2.3.
 
-## Further help
+Development server                
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Code scaffolding               
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+
+Build                  
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
