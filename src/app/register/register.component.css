@@ -1,0 +1,75 @@
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page-title {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #333;
+    font-family: 'Playfair Display';
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    grid-column: span 2;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    grid-column: span 2;
+    padding: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #c9302c;
+}
+
+@media (max-width: 768px) {
+    .register-form {
+        grid-template-columns: 1fr;
+    }
+}

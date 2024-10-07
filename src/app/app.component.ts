@@ -6,11 +6,13 @@ import { FirstsectionComponent } from './firstsection/firstsection.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from "./home/home.component";
 import { MenuComponent } from './menu/menu.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, FooterComponent, HomeComponent,MenuComponent],
+  imports: [RouterOutlet, NavComponent, FooterComponent, HomeComponent,MenuComponent,RegisterComponent, LoginComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

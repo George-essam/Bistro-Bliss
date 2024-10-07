@@ -86,14 +86,6 @@ header
     font-weight: 500;
 }
 
-.home
-{
-    background-color: #DBDFD0; /* Adjust this color to match the exact shade from your design */
-    border-radius: 34px; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-}
-
 .nav-right-section button
 {
     border-radius: 118px;
@@ -104,4 +96,53 @@ header
     width: 148px;
     height: 48px;
     background-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .nav-mid-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-left-section h1 {
+        font-size: 30px;
+    }
+
+    .nav-right-section button {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-section, .right-section {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .nav-left-section {
+        justify-content: center;
+    }
+
+    .nav-right-section button {
+        width: 100%;
+    }
 }
