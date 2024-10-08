@@ -1,0 +1,45 @@
+<section class="menu-section">
+    <h2>Admin Menu Control</h2>
+  
+    <!-- Menu Items -->
+    <div class="menu-grid">
+      <div class="menu-item" *ngFor="let item of items">
+        <img [src]="item?.imageUrl" alt="{{item.name}}">
+        <h3>{{item.name}}</h3>
+        <p>${{item.price}}</p>
+        <p>{{item.description}}</p>
+  
+        <!-- Admin Buttons for updating or deleting -->
+        <div class="admin-controls">
+          <button (click)="editItem(item)">Edit</button>
+          <button (click)="deleteMenuItem(item._id)">Delete</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Add New Item Button -->
+    <button (click)="addItem()">Add New Item</button>
+  
+    <!-- Modal for adding/editing items -->
+    <div class="modal" *ngIf="isModalOpen">
+      <div class="modal-content">
+        <form (ngSubmit)="saveItem()">
+          <label for="name">Name:</label>
+          <input type="text" id="name" [(ngModel)]="selectedItem.name" name="name" required>
+  
+          <label for="price">Price:</label>
+          <input type="number" id="price" [(ngModel)]="selectedItem.price" name="price" required>
+  
+          <label for="description">Description:</label>
+          <textarea id="description" [(ngModel)]="selectedItem.description" name="description" required></textarea>
+  
+          <label for="imageUrl">Image URL:</label>
+          <input type="text" id="imageUrl" [(ngModel)]="selectedItem.imageUrl" name="imageUrl" required>
+  
+          <button type="submit">{{ isEdit ? 'Update' : 'Add' }}</button>
+          <button type="button" (click)="closeModal()">Cancel</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  

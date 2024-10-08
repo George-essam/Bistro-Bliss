@@ -8,11 +8,12 @@ import { HomeComponent } from "./home/home.component";
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { AdminComponent } from './admin/admin.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavComponent, FooterComponent, HomeComponent,MenuComponent,RegisterComponent, LoginComponent],
+  imports: [RouterOutlet, NavComponent, FooterComponent, HomeComponent,MenuComponent,RegisterComponent, LoginComponent,AdminComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
