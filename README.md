@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/4b1bea4f-040b-4860-b1fd-b33681969a19
+
 *Bistro Bliss*🍽️
 
 Bistro Bliss is a full-fledged restaurant website that includes both the frontend and backend to deliver a seamless user experience. This website allows users to explore the menu, make reservations, and contact the restaurant. Additionally, the backend manages orders, reservations, and user queries.
