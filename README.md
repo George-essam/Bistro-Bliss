@@ -39,7 +39,7 @@ Run ng serve for a development server. Navigate to http://localhost:4200/. The a
 
 This project was generated with Angular CLI version 18.2.3.
 
-Development server                
+Frontend Development server                
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
 
 Code scaffolding               
@@ -47,3 +47,9 @@ Run ng generate component component-name to generate a new component. You can al
 
 Build                  
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
+
+Backend dependencies                
+npm install express mongoose bcryptjs jsonwebtoken body-parser cors
+
+Backend Development server                
+Run nodemon index.js for a dev server. Navigate to http://localhost:3000. The application will automatically reload if you change any of the source files.
